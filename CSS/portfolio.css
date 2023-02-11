@@ -1,0 +1,136 @@
+body, html {
+	margin: 0;
+	background-color: black;
+	height: 100%;
+}
+	
+.bkg {
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background {
+	margin: 0 auto; 
+	width: 1920px;
+}
+
+.content {
+    position: fixed;
+    margin-top: 10px;
+	width: 100%;
+	padding-bottom:5px;
+	padding-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top:0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top {
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.relative {
+	position: relative;
+}
+
+/*https://www.sitepoint.com/css3-responsive-centered-image/*/
+img.Mountain {
+	position: absolute;
+	max-width: 20%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 10%;
+	filter: drop-shadow(0px 0px 3px black);
+}
+
+img.Mountain:empty{
+	top: 50%;
+	left: 50%;                 
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -70%);
+}
+
+img.Instagram {
+	position: absolute;
+	max-width: 20%;
+	filter: drop-shadow(0px 0px 3px black);
+}
+
+img.Instagram:empty {
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, 100%);
+}
+
+@media screen and (orientation: portrait) {
+  img.Mountain { max-width: 40%;}
+  img.Instagram { max-width: 40%;}
+  #myVideo{width: 0px; height: 0px;}
+  #video2{width: 1242px; height: 2148px; position: fixed; top: 0; margin-left: -8px; margin-top: -8px;}
+}
+
+@media screen and (orientation: landscape) and (max-width: 1100px) {
+	img.Mountain:empty { transform: translate(-50%, -50%);}
+	img.Instagram:empty { transform: translate(-50%, 175%);}
+} 
+
+.navbar {
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	background-color: none;
+	display: inline-block;
+}
+
+.navbar a {
+	color: white;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Helvetica; 
+	font-weight: bolder;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+
+.navbar a:hover {
+	background-color: none;
+	color: gray;
+}
+
+a.home {
+	background-color: none;
+	color: none;
+}
+
+h1 {
+	color: white;
+	font-family: Helvetica; 
+	font-size: 200%;
+}
+
+
+

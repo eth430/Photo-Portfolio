@@ -1,0 +1,98 @@
+body, html {
+	margin: 0;
+	background-color: black;
+	height: 100%;
+}
+
+.top {
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+header {
+	margin-top: 10px;
+	text-align: center;
+	color: black;
+	font-size: 45px;
+	font-family: Helvetica; 
+	font-weight: Bold;
+	letter-spacing: 5px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	background-color: white;
+}
+
+.navbar {
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	background-color: none;
+	display: inline-block;
+}
+
+.navbar a {
+	color: white;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Helvetica; 
+	font-weight: bolder;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+
+.navbar a:hover {
+	background-color: none;
+	color: gray;
+}
+
+div.col {
+	margin-top: 10px;
+	float: left;
+    width: 33.33%;
+    padding: 5px;
+    height: 33.33%;
+}
+
+.responsive {
+    
+}
+
+div.gallery {
+    
+}
+
+div.gallery:hover {
+	opacity: 0.9;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+	color: white;
+	font-family: Helvetica; 
+	font-weight: bold;
+	letter-spacing: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+

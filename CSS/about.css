@@ -1,0 +1,94 @@
+body, html {
+	margin: 0;
+	background-color: black;
+	height: 100%;
+}
+
+.top {
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+header {
+	margin-top: 10px;
+	text-align: center;
+	color: black;
+	font-size: 45px;
+	font-family: Helvetica; 
+	font-weight: Bold;
+	letter-spacing: 5px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	background-color: white;
+}
+
+.navbar {
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	background-color: none;
+	display: inline-block;
+}
+
+.navbar a {
+	color: white;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Helvetica; 
+	font-weight: bolder;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+
+.navbar a:hover {
+	background-color: none;
+	color: gray;
+}
+
+p {
+	color: white;
+	font-family: Helvetica; 
+	font-size: 150%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 150%;
+}
+
+@media screen and (orientation: portrait)
+{
+	p {line-height: 250%;}
+}
+
+h1 {
+	color: white;
+	font-family: Helvetica; 
+	font-size: 200%;
+	margin-left: 5%
+}
+
+
+.aboutEmailImg {
+	height: 75px;
+	margin-left: 10%;
+}
+
+.aboutInstaImg {
+	height: 75px;
+	margin-left: 10%;
+	}
+
+
+
+
