@@ -57,6 +57,16 @@ header {
 	color: gray;
 }
 
+a.home {
+	background-color: none;
+	color: none;
+	text-align: left;
+	margin-right: 10%;
+	margin-left: 5%;
+	
+}
+
+
 p {
 	color: white;
 	font-family: Helvetica; 

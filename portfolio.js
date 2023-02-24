@@ -36,6 +36,7 @@ function loadImages(name, num)
 
 
 
+// Experimental Feature, during testing I used a video for the background
 // Pause the looping background video using button
 /*function pause()
 {

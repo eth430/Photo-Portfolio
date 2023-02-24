@@ -57,6 +57,15 @@ header {
 	color: gray;
 }
 
+a.home {
+	background-color: none;
+	color: none;
+	text-align: left;
+	margin-right: 10%;
+	margin-left: 5%;
+}
+
+
 div.col {
 	margin-top: 10px;
 	float: left;
